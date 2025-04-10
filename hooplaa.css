@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar{
+  position: sticky;
+  z-index: 100;
+  top: 0px;
+  /* padding: 10px 10px 10px 10px; */
+  left: 0px;
+  background-color: #1c3127;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+.navbar-brand{
+  box-shadow: 1px 1px 1px 4px rgba(255, 255, 255, 0.5);
+
+}
+#navbarSupportedContent a{
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 90px;
+  transition: color 0.3s;
+  /* transition: all 0.1s; */
+  cursor: pointer;
+}
+
+#nav-link a:hover{
+      color: #ffa800;
+
+}
+
+#navbarSupportedContent button{
+  background-color: #ffa800;
+  margin-top: 75px;
+  width: 6rem;
+  color: #ffffff;
+}
+#section{
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#home{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)), url("https://www.travelingislanders.com/wp-content/uploads/2015/10/Thailand_Travel_guide-e1449450576458.jpg");
+  flex-direction: column;
+}
+#home h1{
+  padding-top: 150px;
+  text-align: center;
+  align-items: center;
+  color: #ffa800;
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing : 3px;
+  text-shadow:    0px 1px 0px rgb(126, 43, 175),
+                  0px 2px 0px #ccc,
+                  0px 3px 0px #ccc,
+                  0px 4px 0px #ccc,
+                  0px 5px 0px #ccc,
+                  0px 6px 0px rgb(126, 43, 175),
+                  0px 7px 0px rgb(126, 43, 175);
+}
+#home p{
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+#home .input-group{
+  width: 64%;
+  height: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 500px;
+}
+.sign{
+  background-color: #ffa800 !important;
+  color: #ffffff;
+  margin-left: 400px;
+  box-shadow: 2px 4px 5px rgba(0,0,0,3);
+
+}
+
+
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.travelingislanders.com/wp-content/uploads/2015/10/Thailand_Travel_guide-e1449450576458.jpg") no-repeat center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffa800;
+  padding: 20px;
+}
+.hero-content {
+  max-width: 800px;
+  font-size: 20px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.pic{
+  width: 400px;
+  height: 350px;
+  position: relative;
+  top: 50px;
+  border-radius: 110px;
+}
+#places img{
+  width: 250px;
+  height: 200px;
+}
+.card{
+  margin-left: 50px;
+  width: 250px;
+  height: 300px;
+  background-color: #e5e5e5 !important;
+  border: 1px solid white !important;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0),
+              inset 4px 4px 4px white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+}
+.heroo{
+  background-color: #e5e5e5  ;
+  height: fit-content;
+}
+.structrue{
+  width: 250px;
+  height: 140px;
+}
+.tittle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffa800;
+  /* -webkit-text-stroke:.5px #1c3127; */
+  text-align: center;
+}
+.card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #24e347;
+  /* -webkit-text-stroke:.5px #1c3127; */
+  text-align: center;
+}
+
+/* #get a:hover{
+  color: #24e347;
+} */
+
+.get{
+  width: 150px;
+  height: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #ffa800;
+  color: #ffffff;
+  border: none !important;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.get:hover{
+  cursor: pointer;
+  transition: 1s;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+}
+.new{
+  color: #ffa800;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing : 1px;
+  font-weight: bold;
+  text-shadow:   0px  0px 1px rgb(0, 0, 0),
+  0px 2px 0px #000000,
+  0px 3px 0px #000000,
+  0px 4px 7px #000000,
+  0px 5px 7px #000000,
+  0px 2px 7px rgb(0, 0, 0),
+  0px 2px 7px rgb(0, 0, 0);
+}
+
+.card:hover{
+  box-shadow:inset 5px 50px 10px rgba(0,0,0,.3),
+              inset -4px -4px 10px white;
+              transition: 0.2s;
+} 
+
+/* contact */
+#contact img{
+  height: 100%;
+}
+.box{
+  width: 80%;
+  background: #b8acac;
+  display: flex;
+  flex-direction: column;
+}
+#contact input{
+  margin: 10px 0px;
+}
+#contact .signn{
+  color: #ffffff;
+  
+
+}
+#contact .signn:hover{
+  color: #ffa800;
+  transition: .2s;
+}
+.last{
+  position: relative;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+#footer{
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -30px;
+}
+#service p:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#about p:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#about h2:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#navebar a:hover{
+  color: #ffa800;
+  transition: .2s;
+}
+.backk{
+  align-items: center;
+  position: relative;
+  top: -150px;
+  width: 10%;
+  left: 700px;
+  background-color: #ffa800;
+  border-radius: 5px;
+}
+
+
+.backk:hover{
+  background-color: #ffffff;
+  transition: .2s;
+  cursor: pointer;
+  color: #000000;
+}
+
+
+
+.nope{
+  color: #ffa800;
+  font-size: 15px;
+}
+.bar{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* .bar:hover{
+  color: #000000;
+  cursor: pointer;
+  transition: 2s;
+} */
+
+.chat{
+  position: sticky;
+  top: 200px;
+  margin-left: 1450px;
+  z-index: 1000;
+  margin-top: -200px;
+}
+
+@media screen and (max-width:320px){
+
+  .image{
+      width: 40px;
+      height: 40px;
+      position: relative;
+      top: -3px;
+      
+  }
+  
+  .navbar{
+      /* width: 320px; */
+      position: sticky;
+      z-index: 100;
+      top: 0px;
+      left: 0px;
+      background-color: #1c3127;
+      box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+  }
+  .navbar-brand{
+      box-shadow: 1px 1px 1px 4px rgba(255, 255, 255, 0.5);
+      position: relative;
+      left: -80px;
+      width: 40px;
+      height: 45px;
+      top: -3px;
+  
+  }
+  #navbarSupportedContent a{
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-top: 10px;
+      transition: color 0.3s;
+      /* transition: all 0.1s; */
+      cursor: pointer;
+      padding-bottom: 3px;
+  }
+  
+  #nav-link a:hover{
+          color: #ffa800;
+  
+  }
+  
+  #navbarSupportedContent button{
+      background-color: #ffa800;
+      margin-top: 10px;
+      width: 6rem;
+      color: #ffffff;
+      margin-left: 10px;
+  }
+
+  #section{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      }
+      
+      #home{
+          height: 100vh;
+          background-size: cover;
+          background-position: center;
+          background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)), url("https://www.travelingislanders.com/wp-content/uploads/2015/10/Thailand_Travel_guide-e1449450576458.jpg");
+          flex-direction: column;
+      }
+      #home h1{
+          padding-top: 100px;
+          text-align: center;
+          align-items: center;
+          color: #ffa800;
+          font-size: 25px;
+          font-family: "Poppins", sans-serif;
+          letter-spacing : 3px;
+          text-shadow:    0px 1px 0px rgb(126, 43, 175),
+                          0px 2px 0px #ccc,
+                          0px 3px 0px #ccc,
+                          0px 4px 0px #ccc,
+                          0px 5px 0px #ccc,
+                          0px 6px 0px rgb(126, 43, 175),
+                          0px 7px 0px rgb(126, 43, 175);
+      }
+      #home p{
+          font-size: 20px;
+          color: #ffffff;
+          text-align: center;
+          font-weight: bold;
+      }
+      #home .input-group{
+          width: 70%;
+          height: 16px;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          padding-left: 15px;
+      }
+      .sign{
+          background-color: #ffa800 !important;
+          color: #000000;
+          margin-left: 400px;
+          box-shadow: 2px 4px 5px rgba(0,0,0,3);
+          margin-left: -50px;
+          height: 37px;
+          width: 40%;
+          font-size: 5px;
+
+      }
+.hero h2{
+  font-size: 10px;
+  
+}        
+      
+.hero{
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.travelingislanders.com/wp-content/uploads/2015/10/Thailand_Travel_guide-e1449450576458.jpg") no-repeat center/cover;
+  /* height: 90vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffa800;
+  padding: 20px;
+}
+.hero-content {
+  max-width: 400px;
+  font-size: 5px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 30vh;
+}
+
+
+.pic{
+  width:0px;
+  height: 0px;
+  position: relative;
+  top: 50px;
+  border-radius: 110px;
+}
+
+
+#places img{
+  width: 250px;
+  height: 200px;
+}
+
+
+.card{
+  margin-top: -30px;
+  margin-left: 40px;
+  width: 250px;
+  height: 300px;
+  background-color: #e5e5e5 !important;
+  border: 1px solid white !important;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0),
+              inset 4px 4px 4px white;
+  border-radius: 20px !important;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.heroo{
+  background-color: #88e35e  ;
+  height: fit-content;
+}
+.structrue{
+  width: 250px;
+  height: 140px;
+}
+.heroo h1{
+  font-size: 10px;
+}
+.tittle{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffa800;
+  /* -webkit-text-stroke:.5px #1c3127; */
+  text-align: center;
+  
+}
+.card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #24e347;
+  /* -webkit-text-stroke:.5px #1c3127; */
+  text-align: center;
+}
+
+/* #get a:hover{
+  color: #24e347;
+} */
+
+.get{
+  width: 150px;
+  height: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #ffa800;
+  color: #ffffff;
+  border: none !important;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.get:hover{
+  cursor: pointer;
+  transition: 1s;
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+}
+.new{
+  color: #ffa800;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing : 1px;
+  font-weight: bold;
+  text-shadow:   0px  0px 1px rgb(0, 0, 0),
+  0px 2px 0px #000000,
+  0px 3px 0px #000000,
+  0px 4px 7px #000000,
+  0px 5px 7px #000000,
+  0px 2px 7px rgb(0, 0, 0),
+  0px 2px 7px rgb(0, 0, 0);
+}
+
+.card:hover{
+  box-shadow:inset 5px 50px 10px rgba(0,0,0,.3),
+              inset -4px -4px 10px white;
+              transition: 0.2s;
+} 
+
+/* contact */
+#contact img{
+  height: 100%;
+}
+.hero h1{
+  font-size: 10px;
+  position: relative;
+  top: -50px;
+}
+.box{
+  width: 80%;
+  background: #b8acac;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+}
+#contact input{
+  margin: 4px 0px;
+  position: relative;
+  top: -50px;
+  left: 60px;
+  width: 70%;
+  height: 10vh;
+}
+#contact .signn{
+  color: #ffffff;
+  
+
+}
+#contact .signn:hover{
+  color: #ffa800;
+  transition: .2s;
+}
+.last{
+  position: relative;
+  left: -100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#footer{
+  width: 50%;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -0px;
+}
+#service p:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#about p:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#about h2:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+#navebar a:hover{
+  color: #ffa800;
+  transition: .2s;
+}
+.backk{
+  align-items: center;
+  position: relative;
+  top: -50px;
+  width: 20%;
+  height: 20%;
+  left: 130px;
+  background-color: #ffa800;
+  border-radius: 5px;
+}
+
+
+.backk:hover{
+  background-color: #ffffff;
+  transition: .2s;
+  cursor: pointer;
+  color: #000000;
+}
+
+
+
+.nope{
+  color: #ffa800;
+  font-size: 15px;
+}
+.bar{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#contact .hero{
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://www.travelingislanders.com/wp-content/uploads/2015/10/Thailand_Travel_guide-e1449450576458.jpg") no-repeat center/cover;
+  /* height: 90vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffa800;
+  padding: 20px;
+}
+
+#contact .hero-content {
+  max-width: 400px;
+  font-size: 5px;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 60vh;
+}
+
+#contact .form-control{
+  height: 8vh;
+}
+
+#contact .popo{
+  position: relative;
+  top: -45px;
+  left: 60px;
+  width: 60vw;
+  height: 8vh;
+}
+#contact .poopo{
+  position: relative;
+  top: -45px;
+  left: 60px;
+  width: 60vw;
+  height: 15vh;
+}
+#contact .signn{
+  position: relative;
+  top: -40px;
+
+}
+.chat{
+  position: sticky;
+  top: 80px;
+  margin-left: 300px;
+  z-index: 1000;
+  margin-top: 10px;
+}
+.size{
+  width: 20px;
+  height: 20px;
+}
+  
+}
